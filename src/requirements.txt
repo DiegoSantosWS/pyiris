@@ -29,7 +29,7 @@ backcall==0.2.0
 binaryornot==0.4.4
     # via cookiecutter
 black==21.5b1
-    # via -r /home/diego/projetos/src/github.com/DiegoSantosWS/studingkedro/pyiris/src/requirements.in
+    # via -r requirements.in
 bleach==4.1.0
     # via nbconvert
 cachetools==4.2.4
@@ -52,7 +52,9 @@ click==7.1.2
 cookiecutter==1.7.3
     # via kedro
 coverage[toml]==6.3.2
-    # via pytest-cov
+    # via
+    #   coverage
+    #   pytest-cov
 debugpy==1.5.1
     # via ipykernel
 decorator==5.1.1
@@ -66,12 +68,12 @@ entrypoints==0.4
     #   jupyterlab-server
     #   nbconvert
 flake8==3.9.2
-    # via -r /home/diego/projetos/src/github.com/DiegoSantosWS/studingkedro/pyiris/src/requirements.in
+    # via -r requirements.in
 fsspec==2022.1.0
     # via kedro
 gitdb==4.0.9
     # via gitpython
-gitpython==3.1.27
+gitpython==3.1.41
     # via kedro
 idna==2.10
     # via
@@ -90,7 +92,7 @@ ipykernel==6.9.1
     #   qtconsole
 ipython==7.31.1 ; python_version > "3.6"
     # via
-    #   -r /home/diego/projetos/src/github.com/DiegoSantosWS/studingkedro/pyiris/src/requirements.in
+    #   -r requirements.in
     #   ipykernel
     #   ipywidgets
     #   jupyter-console
@@ -105,7 +107,7 @@ ipython-genutils==0.2.0
 ipywidgets==7.6.5
     # via jupyter
 isort==5.10.1
-    # via -r /home/diego/projetos/src/github.com/DiegoSantosWS/studingkedro/pyiris/src/requirements.in
+    # via -r requirements.in
 jedi==0.18.1
     # via ipython
 jinja2==3.0.3
@@ -128,10 +130,10 @@ jsonschema==4.4.0
     #   jupyterlab-server
     #   nbformat
 jupyter==1.0.0
-    # via -r /home/diego/projetos/src/github.com/DiegoSantosWS/studingkedro/pyiris/src/requirements.in
+    # via -r requirements.in
 jupyter-client==6.1.12
     # via
-    #   -r /home/diego/projetos/src/github.com/DiegoSantosWS/studingkedro/pyiris/src/requirements.in
+    #   -r requirements.in
     #   ipykernel
     #   jupyter-console
     #   jupyter-server
@@ -156,19 +158,20 @@ jupyter-server==1.13.5
     #   jupyterlab-server
     #   nbclassic
 jupyterlab==3.2.9
-    # via -r /home/diego/projetos/src/github.com/DiegoSantosWS/studingkedro/pyiris/src/requirements.in
+    # via -r requirements.in
 jupyterlab-pygments==0.1.2
     # via nbconvert
 jupyterlab-server==2.10.3
     # via jupyterlab
 jupyterlab-widgets==1.0.2
     # via ipywidgets
-kedro[pandas.csvdataset]==0.17.7
+kedro[pandas-csvdataset]==0.17.7
     # via
-    #   -r /home/diego/projetos/src/github.com/DiegoSantosWS/studingkedro/pyiris/src/requirements.in
+    #   -r requirements.in
+    #   kedro
     #   kedro-telemetry
 kedro-telemetry==0.1.3
-    # via -r /home/diego/projetos/src/github.com/DiegoSantosWS/studingkedro/pyiris/src/requirements.in
+    # via -r requirements.in
 markupsafe==2.1.0
     # via jinja2
 matplotlib-inline==0.1.3
@@ -199,7 +202,7 @@ nbformat==5.1.3
     #   nbstripout
     #   notebook
 nbstripout==0.5.0
-    # via -r /home/diego/projetos/src/github.com/DiegoSantosWS/studingkedro/pyiris/src/requirements.in
+    # via -r requirements.in
 nest-asyncio==1.5.4
     # via
     #   ipykernel
@@ -275,13 +278,13 @@ pyrsistent==0.18.1
     # via jsonschema
 pytest==6.2.5
     # via
-    #   -r /home/diego/projetos/src/github.com/DiegoSantosWS/studingkedro/pyiris/src/requirements.in
+    #   -r requirements.in
     #   pytest-cov
     #   pytest-mock
 pytest-cov==3.0.0
-    # via -r /home/diego/projetos/src/github.com/DiegoSantosWS/studingkedro/pyiris/src/requirements.in
+    # via -r requirements.in
 pytest-mock==1.13.0
-    # via -r /home/diego/projetos/src/github.com/DiegoSantosWS/studingkedro/pyiris/src/requirements.in
+    # via -r requirements.in
 python-dateutil==2.8.2
     # via
     #   arrow
@@ -382,7 +385,7 @@ websocket-client==1.2.3
     # via jupyter-server
 wheel==0.36.2
     # via
-    #   -r /home/diego/projetos/src/github.com/DiegoSantosWS/studingkedro/pyiris/src/requirements.in
+    #   -r requirements.in
     #   pip-tools
 widgetsnbextension==3.5.2
     # via ipywidgets
